@@ -1,6 +1,6 @@
 {
   "name": "circle-ci",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A node.js wrapper to use circle.ci api's ",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "circle-ci": ".bin/circle-ci.js"
+    "circle-ci": "bin/circle-ci.js"
   },
   "repository": {
     "type": "git",
