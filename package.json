@@ -1,0 +1,28 @@
+{
+  "name": "circle-ci",
+  "version": "1.0.0",
+  "description": "A node.js wrapper to use circle.ci api's ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seawatts/circle-ci.git"
+  },
+  "engines": {
+    "node": ">= 4.x.x"
+  },
+  "keywords": [
+    "circle.ci",
+    "api",
+    "circle",
+    "ci"
+  ],
+  "author": "seawatts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seawatts/circle-ci/issues"
+  },
+  "homepage": "https://github.com/seawatts/circle-ci#readme"
+}
