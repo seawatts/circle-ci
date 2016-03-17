@@ -4,7 +4,11 @@
   "description": "A node.js wrapper to use circle.ci api's ",
   "main": "index.js",
   "scripts": {
+    "start": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "circle-ci": ".bin/circle-ci.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +28,11 @@
   "bugs": {
     "url": "https://github.com/seawatts/circle-ci/issues"
   },
-  "homepage": "https://github.com/seawatts/circle-ci#readme"
+  "homepage": "https://github.com/seawatts/circle-ci#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "commander": "^2.9.0",
+    "q": "^1.4.1",
+    "request-promise": "^2.0.1"
+  }
 }
