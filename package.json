@@ -1,6 +1,6 @@
 {
   "name": "circle-ci",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A node.js wrapper to use circle.ci api's ",
   "main": "index.js",
   "scripts": {
